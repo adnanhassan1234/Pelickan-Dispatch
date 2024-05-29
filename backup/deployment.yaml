@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vultture-admin-frontend
+  namespace: vultture
+spec:
+  selector:
+    matchLabels:
+      app: vultture-admin-frontend-app
+      version: "1"
+  replicas: 1
+  strategy:
+    rollingUpdate:
+      maxSurge: 100%
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: vultture-admin-frontend-app
+        version: "1"
+    spec:
+      containers:
+        - name: vultture-admin-frontend-container
+          image: harbor.qmhtech.com/qmhdocker/vulttureadminfe:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+      imagePullSecrets:
+        - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vultture-admin-frontend-svc
+  namespace: vultture
+spec:
+  selector:
+    app: vultture-admin-frontend-app
+  ports:
+    - protocol: TCP
+      name: http
+      port: 8080
+      targetPort: 3000
+  type: NodePort
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: vs-vultture-admin-frontend
+  namespace: vultture
+spec:
+  hosts:
+    - admin.test.pelickandespatch.com
+  gateways:
+    - istio-system/http-gateway
+  http:
+    - match:
+        - uri:
+      route:
+        - destination:
+            host: vultture-admin-frontend-svc
+            port:
+              number: 8080

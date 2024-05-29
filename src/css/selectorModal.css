@@ -1,0 +1,31 @@
+.check--close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  /* margin: 0 0 0 auto; */
+}
+.check--close:hover,
+.check--close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.checkbox--content__ms {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #fefefe;
+  border-radius: 8px;
+  width: inherit;
+  height: auto;
+}
+.all--fields__ms {
+  display: flex;
+  justify-content: flex-start;
+  /* display: flex; */
+  /* flex-direction: row; */
+  gap: 15px;
+  /* align-items: center; */
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}

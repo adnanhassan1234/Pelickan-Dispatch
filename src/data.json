@@ -1,0 +1,57 @@
+[
+  {
+    "image": "@/assets/car1.png",
+    "title": "ESTATE",
+    "des": "VW Transfer or Similar"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Saloon Car",
+    "des": "VW Transfer or Similar"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Executive Car",
+    "des": "Ford Galaxy & Zafira or Similar"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "VIP Car",
+    "des": "Ford Galaxy or Similar"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "MPV-5",
+    "des": "Hyundai I800 & Ford Galaxy or Similar and best car"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Minivan",
+    "des": "(VW Transfer or Similar)"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Minivan",
+    "des": "(Mercedes V Class or Similar)"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Minivan",
+    "des": "(VW Transfer or Similar)"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Minivan",
+    "des": "(VW Transfer or Similar)"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Minivan",
+    "des": "(VW Transfer or Similar)"
+  },
+  {
+    "image": "@/assets/car1.png",
+    "title": "Cycle Friendly",
+    "des": "Ford Galaxy or Similar"
+  }
+]

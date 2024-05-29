@@ -1,0 +1,155 @@
+.sidebar {
+  background-color: #1e1e1e;
+  padding-top: 35px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  border-right: 1px solid rgb(var(--ig-separator));
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  max-width: 80px;
+  transition: max-width 0.3s ease;
+  z-index: 2;
+}
+
+.unshow {
+  max-width: 260px;
+}
+
+.logo__small {
+  width: 30px !important;
+  height: 30px !important;
+}
+.sidebar__icon {
+  position: relative;
+  cursor: pointer;
+  /* border: 2px solid green; */
+}
+.sidebar__icon i {
+  position: absolute;
+
+  right: -8px;
+  top: -20px;
+  color: rgba(255, 255, 255, 0.863);
+  background-color: #1e1e1e;
+  font-weight: 800;
+  /* background-color: green; */
+  /* padding: 2px 10px; */
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.margin__width {
+  margin-left: 80px;
+}
+.logo-wrapper {
+  width: 100%;
+  padding: 5px 25px;
+  margin-bottom: 20px;
+}
+
+.logo-wrapper img {
+  width: 100%;
+  max-width: 215px;
+  height: 25px;
+}
+
+.sidebar-menu {
+  font-size: 0.8rem;
+  list-style-type: none;
+  padding: 0 12px 20px 8px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.active {
+  background: #333840;
+}
+
+.multitrip__rooster::-webkit-scrollbar,
+.generic__rooster .rooster__scheduler::-webkit-scrollbar,
+.scenarios__first::-webkit-scrollbar,
+.vattributes__box::-webkit-scrollbar,
+.selector__modal::-webkit-scrollbar,
+.sidebar-menu::-webkit-scrollbar,
+.docs__table::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.generic__rooster .rooster__scheduler::-webkit-scrollbar-thumb,
+.multitrip__rooster::-webkit-scrollbar-thumb,
+.scenarios__first::-webkit-scrollbar-thumb,
+.vattributes__box::-webkit-scrollbar-thumb,
+.selector__modal::-webkit-scrollbar-thumb,
+.sidebar-menu::-webkit-scrollbar-thumb,
+.docs__table::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 20px;
+}
+
+.generic__rooster .rooster__scheduler::-webkit-scrollbar-thumb:hover,
+.multitrip__rooster::-webkit-scrollbar-thumb:hover,
+.scenarios__first::-webkit-scrollbar-thumb:hover,
+.vattributes__box::-webkit-scrollbar-thumb:hover,
+.selector__modal::-webkit-scrollbar-thumb:hover,
+.sidebar-menu::-webkit-scrollbar-thumb:hover,
+.docs__table::-webkit-scrollbar-thumb:hover {
+  background: #d38b00;
+}
+
+.sidebar-menu.bottom {
+  flex-grow: 0;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.sidebar-menu li {
+  margin-bottom: 10px;
+}
+
+.sidebar-menu li a.nav-link {
+  border-radius: 10px;
+  padding: 16px 15px;
+  color: #fdfdfd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.sidebar-menu li a.nav-link.active {
+  font-weight: bold;
+}
+
+.sidebar-menu li a.nav-link.active img.icon {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.sidebar-menu li a.nav-link .icon {
+  margin-right: 15px;
+  width: 24px;
+  height: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-menu li a.nav-link:hover {
+  background-color: #333840;
+}
+
+.sidebar-menu li a.nav-link:hover .icon {
+  transform: scale(1.08);
+}
+
+.rounded-circle {
+  border-radius: 100%;
+}
+.image-data i,
+.sidebar-menu button {
+  cursor: pointer;
+}

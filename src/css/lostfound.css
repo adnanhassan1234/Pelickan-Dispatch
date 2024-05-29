@@ -1,0 +1,57 @@
+.lostfound__middle--jd,
+.lostfound__middle {
+  width: 974px;
+}
+.lostfound__middle {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.lostfound__middle img {
+  grid-column: 1/3;
+  border-radius: 8px;
+  border: 1px solid #1e1e1e;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lostfound__middle .table__main {
+  grid-column: 3/8;
+}
+.lostfound__middle .docs__table {
+  height: auto;
+  border-radius: 8px;
+}
+.lostfound__middle .docs__table tr th,
+.lostfound__middle .docs__table tr td {
+  width: unset !important;
+  padding: 8px 20px;
+}
+.lostfound__middle .docs__table table {
+  width: 100%;
+}
+.lostfound__contact {
+  display: flex;
+  gap: 16px;
+}
+.lostfound__contact span {
+  width: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: left;
+  color: #d48c00;
+}
+.lostfound__middle--jd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.lostfound__middle--jd .lostfound__bottom {
+  grid-column: 1/4;
+  display: inherit;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: inherit;
+}

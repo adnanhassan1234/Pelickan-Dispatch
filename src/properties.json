@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Driver Properties",
+    "tag": "details"
+  },
+  {
+    "name": "Copy Driver",
+    "tag": "details"
+  },
+  {
+    "name": "View Driver Log",
+    "tag": "drivers_log"
+  },
+  {
+    "name": "New Driver",
+    "tag": "details"
+  },
+  {
+    "name": "Print Summary Sheet",
+    "tag": "print"
+  },
+  {
+    "name": "Set up Charges for the Selected Driver",
+    "tag": "charges"
+  },
+  {
+    "name": "Add charges",
+    "tag": "charges"
+  }
+]

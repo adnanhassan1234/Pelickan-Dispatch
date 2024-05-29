@@ -1,0 +1,18 @@
+[
+  {
+    "fleet_name": "All Drivers",
+    "option": "checkbox"
+  },
+  {
+    "fleet_name": "Active",
+    "option": "checkbox"
+  },
+  {
+    "fleet_name": "BPC",
+    "option": "checkbox"
+  },
+  {
+    "fleet_name": "PNC",
+    "option": "checkbox"
+  }
+]

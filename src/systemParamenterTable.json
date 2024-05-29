@@ -1,0 +1,152 @@
+[
+  {
+    "Icon": "active",
+    "parameter": "checkbox",
+    "value": "value1"
+  },
+  {
+    "Icon": "active",
+    "parameter": "checkbox",
+    "value": "value2"
+  },
+  {
+    "Icon": "active",
+    "parameter": "checkbox",
+    "value": "value3"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Rejectedcheckbox",
+    "value": "value4"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value5"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value6"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value7"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value8"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value9"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value10"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value11"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value12"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value13"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value14"
+  },
+  {
+    "Icon": "active",
+    "parameter": "%Cancelledcheckbox",
+    "value": "value15"
+  }
+]

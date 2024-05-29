@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Icon",
+    "option": "checkbox"
+  },
+  {
+    "name": "Driver ID",
+    "option": "checkbox"
+  },
+  {
+    "name": "Full Name",
+    "option": "checkbox"
+  },
+  {
+    "name": "Attributes",
+    "option": "checkbox"
+  },
+  {
+    "name": "Mobile Number",
+    "option": "checkbox"
+  },
+  {
+    "name": "Joined Date",
+    "option": "checkbox"
+  },
+  {
+    "name": "NI Number",
+    "option": "checkbox"
+  },
+  {
+    "name": "Badge Number",
+    "option": "checkbox"
+  },
+  {
+    "name": "Badge Expiry",
+    "option": "checkbox"
+  },
+  {
+    "name": "Driving Licencse",
+    "option": "checkbox"
+  },
+  {
+    "name": "Driving Licencse expiry",
+    "option": "checkbox"
+  },
+  {
+    "name": "CRB",
+    "option": "checkbox"
+  },
+  {
+    "name": "CRB Expiry",
+    "option": "checkbox"
+  }
+]

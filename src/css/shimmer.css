@@ -1,0 +1,13 @@
+.shimmer__effect {
+  width: 58%;
+  height: 650px;
+  background: rgba(229, 229, 239, 1);
+}
+.shimmer__effect--bottom {
+  margin: 0 auto;
+}
+.shimmer__effect--bottom span {
+  width: 20px;
+  height: 20px;
+  background: rgba(229, 229, 239, 1);
+}

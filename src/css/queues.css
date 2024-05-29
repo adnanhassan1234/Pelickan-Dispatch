@@ -1,0 +1,17 @@
+.three--roaster__button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.4rem 0 0 2rem;
+}
+.leadtime--center {
+  background: #f8f8ff;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600 !important;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}

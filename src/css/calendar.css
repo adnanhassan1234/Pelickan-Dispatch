@@ -1,0 +1,76 @@
+.doubble--calendar_pick {
+  max-width: 330px;
+  margin: auto;
+  box-shadow: 2px 16px 19px 0px rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+  padding: 15px 0 0 0 !important;
+}
+
+.header--calander__pick {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--calander__pick i {
+  color: #b5bec6;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.header--calander__pick i:hover {
+  color: #2b89fa;
+}
+
+.dayNames--weeks__ms {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.dayName--calnder__ms {
+  text-align: center;
+  flex-grow: 1;
+  padding: 4px 0;
+  color: #b5bec6;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.09375rem;
+  text-transform: uppercase;
+}
+
+.days--ms__clnder {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+.day--clnder__ms {
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 1.8125rem;
+  transition: background-color 0.3s ease;
+}
+
+.day--clnder__ms:hover {
+  border-radius: 1.8125rem;
+  background: #2b89fa;
+  color: #fff;
+}
+
+.selected--date__clnder {
+  border-radius: 1.8125rem;
+  background: #2b89fa;
+  color: #fff;
+}
+.doubble--calendar_pick .days {
+  height: 27vh !important;
+}

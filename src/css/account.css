@@ -1,0 +1,12 @@
+.main--account__display {
+  display: flex;
+}
+.account--main__left {
+  width: 70%;
+}
+.account--main__rgtone {
+  width: 30%;
+}
+.account--nav__last {
+  width: auto !important;
+}

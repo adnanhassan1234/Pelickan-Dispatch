@@ -1,0 +1,56 @@
+.permissionMainDiv {
+  width: 28%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+}
+.userGmailPermissionDiv {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.permissionLbl {
+  font-size: 16px;
+  font-weight: 600;
+
+  width: 35%;
+}
+.permissionInput {
+  width: 60%;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(235, 231, 231, 0.852);
+  padding: 5px;
+  border-radius: 5px;
+}
+.PermissionDiv {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+.checkboxAndValue {
+  margin-right: 5px;
+}
+.remainPermissionDiv {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 40.5%;
+  flex-wrap: wrap;
+}
+.remainPermissionDiv .checkboxAndValueDiv {
+  margin-right: 4px;
+}
+.permissionBtn {
+  width: 45%;
+
+  margin: 10px 45%;
+  display: flex;
+  justify-content: space-between;
+}

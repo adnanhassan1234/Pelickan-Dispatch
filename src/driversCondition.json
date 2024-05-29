@@ -1,0 +1,30 @@
+[
+  {
+    "name": "All Drivers",
+    "value": "all"
+  },
+  {
+    "name": "All Active Drivers",
+    "value": "active"
+  },
+  {
+    "name": "All Suspended Drivers",
+    "value": "suspended"
+  },
+  {
+    "name": "All Drivers With Attributes ...",
+    "value": "attributes"
+  },
+  {
+    "name": "All Driver With Expired Documents",
+    "value": "expired-documents"
+  },
+  {
+    "name": "All Drivers With Documents Warnings",
+    "value": "documents-warnings"
+  },
+  {
+    "name": "All Left Drivers",
+    "value": "left-drivers"
+  }
+]

@@ -1,0 +1,832 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.driversmainDiv {
+  width: 100%;
+  overflow-x: auto;
+}
+.tableDesign {
+  width: 99%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.theadColor {
+  background: #a9aee936;
+  height: 50px;
+  color: #000000b3;
+}
+.tableDesign thead tr th {
+  padding: 5px 8px;
+}
+.tableDesign tbody tr td {
+  padding: 5px 5px;
+}
+.updatelabel {
+  border: 2px solid #00800030;
+  margin: 7px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35px;
+  background-color: #35d93524;
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+.underlineInTable {
+  width: 100%;
+  border-bottom: 2px solid #a9aee936;
+  height: 5px;
+  display: block;
+}
+.deletelabel {
+  border: 2px solid #ff000047;
+  margin: 7px 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff000030;
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+  height: 35px;
+}
+.editColor {
+  color: #008000a1;
+}
+.deleteColor {
+  color: #ff0000b3;
+}
+.tableDesign tbody tr:nth-child(even) {
+  background-color: #ecedf95c;
+}
+.addBtn {
+  border: none;
+  outline: none;
+  margin: 15px 30px;
+  box-shadow: 2px 2px 3px 2px whitesmoke;
+  border: 1px solid #a9aee9;
+  color: black;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 300;
+  background-color: white;
+}
+.icnosTd {
+  display: flex;
+  justify-content: center;
+}
+.fontSizeIcons {
+  font-size: 24px;
+}
+
+/* driver design css */
+.driverMainDiv {
+  left: 32%;
+  top: 8%;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.035);
+  position: absolute;
+  padding: 15px;
+}
+.formDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  width: 90%;
+}
+.commonDriverOuterDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.commonDivDriver {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.commonDivDriverSecond {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.driverIdDiv {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.mainLabelDriver {
+  font-weight: 500;
+  color: rgb(94 94 94);
+  font-size: 16px;
+}
+.mainInput {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin: 5px 0px 10px 0px;
+  border: 1px solid rgb(223, 221, 221);
+}
+.mainInput:focus {
+  border: 1px solid #a9aee9;
+}
+.placeholderAdjust::placeholder {
+  font-size: 12.5px;
+  padding: 2px;
+  color: rgb(167, 166, 166);
+}
+.selectDesign option {
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: red;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px;
+}
+.statementDiv {
+  position: relative;
+}
+.dropdownStatement {
+  position: relative;
+}
+.dropdownInput {
+  width: 185px;
+}
+.dropdownIcon {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  font-size: 24px;
+  color: #a9aee9;
+}
+.statementListDesign {
+  list-style-type: none;
+  width: 190px;
+  border-radius: 5px;
+  z-index: 1000;
+  padding: 10px;
+  margin-top: -8px;
+  border: 1px solid rgb(223, 221, 221);
+  position: absolute;
+  top: 65px;
+
+  background-color: white;
+}
+.statementListDesign li {
+  margin: 5px;
+  padding: 6px;
+  cursor: pointer;
+}
+.statementListDesign li:hover {
+  background-color: #a9aee9;
+  color: white;
+}
+.memberDropdown {
+  top: 155px;
+}
+.InviteCodeDiv {
+  display: flex;
+  width: 80%;
+  margin-left: 5%;
+  border: 1px solid rgb(223, 221, 221);
+  padding: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 2px 2px 3px 2px whitesmoke;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.inviteCodeInput {
+  width: 65%;
+  align-self: center;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2p;
+  -moz-border-radius: 2p;
+  -ms-border-radius: 2p;
+  -o-border-radius: 2p;
+}
+.sendToDriverBtn {
+  width: max-contents;
+  padding: 9px;
+  background-color: white;
+  border: 1px solid #a9aee9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 2px 2px 3px 2px whitesmoke;
+}
+.sendToDriverBtn:hover {
+  background-color: #a9aee9;
+  color: white;
+}
+.textAlign {
+  align-self: flex-start;
+}
+.textareaBorder {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.statementMargin {
+  margin: 15px 0px;
+}
+.stateWidth {
+  width: 40%;
+  align-self: center;
+  margin-left: -50px;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  gap: 10px;
+  margin-right: 50px;
+}
+.btnDesignDriver {
+  outline: none;
+  border: none;
+  padding: 10px 10px 20px 10px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #a9aee9;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #5a5a5a;
+}
+.btnDesignDriver:hover {
+  background-color: #a9aee9;
+  color: white;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.9;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  background-color: rgb(50, 50, 5);
+}
+
+.btnDesignDriverCancel {
+  outline: none;
+  border: none;
+  padding: 10px 10px 20px 10px;
+  width: 100px;
+  background-color: #a9aee9;
+  border: 1px solid #a9aee9;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: white;
+}
+/* delete model css */
+
+.deleteMainDiv {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 45%;
+
+  padding: 0px;
+}
+.deleteDesignModal {
+  color: #f84848;
+  width: 80px;
+  background-color: rgb(255, 252, 252);
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  position: absolute;
+  left: 38%;
+  border-radius: 50%;
+  font-size: 30px;
+  top: -40px;
+}
+.deleteMsgDiv {
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgb(163, 163, 163);
+}
+.textCenter {
+  text-align: center;
+}
+.paddingTopBottom {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.deleteBtnDiv {
+  margin-left: 30%;
+}
+.cancelBtn {
+  border: none;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(163, 163, 163);
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.deleteBtn {
+  border: none;
+  background-color: #f84848;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* add veicle css */
+
+.vehiclemainDiv {
+  left: 30%;
+  top: 12%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 2px 3px 4px 5px rgb(0 0 0 / 4%);
+  padding: 15px 10px;
+  position: absolute;
+}
+.formDesign {
+  border: 2px solid white;
+  padding: 15px;
+  margin-bottom: 0 !important;
+}
+.vehicleNameDiv {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.nameLbl {
+  align-self: center;
+  text-align: start;
+  width: 25%;
+}
+
+.vehiclNameInput {
+  width: 60%;
+  align-self: center;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 5px;
+}
+.statusDiv {
+  margin: 15px 0px;
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.displayLbl {
+  align-self: center;
+  text-align: center;
+  width: 17%;
+  height: 25px;
+  background-color: white;
+  padding: 3px 5px;
+}
+.statusDropdown {
+  align-self: center;
+  width: 30%;
+  margin-left: 75px;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.statusMargin {
+  margin-left: 25px;
+}
+.commonDiv {
+  margin: 15px 0px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.comonLblmrgn {
+  margin-left: -5px;
+}
+.commonInput {
+  width: 45%;
+  align-self: center;
+  margin-left: 35px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.registrationWidth {
+  width: 30%;
+  margin-left: -5px;
+}
+.registerrationInput {
+  margin-left: 12px;
+}
+.colorEmissionDiv {
+  width: 80%;
+  display: flex;
+  margin: 15px 0px;
+}
+.colorEmissionInput {
+  width: 25%;
+  margin-left: 5px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  padding: 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.colorEmissionLbl {
+  width: 35%;
+  margin-left: 30px;
+}
+.psoMarginInput {
+  width: 45%;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  padding: 5px;
+  border-radius: 4px;
+}
+.lincenceLbl {
+  width: 35%;
+  margin-left: -50px;
+}
+.licenceDropdown {
+  width: 35%;
+  margin-left: -50px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(223, 221, 221);
+  padding: 5px;
+  border-radius: 4px;
+}
+.btnVehicleDiv {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  gap: 10px;
+}
+.textCenter {
+  text-align: center;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: white;
+  }
+  tr:nth-child(even) {
+    background: #a9aee936;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 50%;
+
+    border-bottom: 1px solid #eee;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 2px;
+    width: 45%;
+    text-align: start;
+  }
+
+  /*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		for driver table */
+
+  .driverTable tbody tr td:nth-of-type(1):before {
+    content: "Export Ref";
+  }
+  .driverTable tbody tr td:nth-of-type(2):before {
+    content: "Name";
+  }
+  .driverTable tbody tr td:nth-of-type(3):before {
+    content: "Membership";
+  }
+  .driverTable tbody tr td:nth-of-type(4):before {
+    content: "Home Address";
+  }
+  .driverTable tbody tr td:nth-of-type(5):before {
+    content: "Billing Address";
+  }
+  .driverTable tbody tr td:nth-of-type(6):before {
+    content: "Date Joined";
+  }
+  .driverTable tbody tr td:nth-of-type(7):before {
+    content: "Date Left";
+  }
+  .driverTable tbody tr td:nth-of-type(8):before {
+    content: "Home Tel No";
+  }
+  .driverTable tbody tr td:nth-of-type(9):before {
+    content: "Mobile Tel No";
+  }
+  .driverTable tbody tr td:nth-of-type(10):before {
+    content: "Vat No";
+  }
+  .driverTable tbody tr td:nth-of-type(11):before {
+    content: "Date of Birth";
+  }
+  .driverTable tbody tr td:nth-of-type(12):before {
+    content: "Statement Interval";
+  }
+  .driverTable tbody tr td:nth-of-type(13):before {
+    content: "";
+  }
+
+  /*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		for vehicle table */
+
+  .vehicleTable tbody tr td:nth-of-type(1):before {
+    content: "Vehicle Name";
+  }
+  .vehicleTable tbody tr td:nth-of-type(2):before {
+    content: "Status";
+  }
+  .vehicleTable tbody tr td:nth-of-type(3):before {
+    content: "Fleet";
+  }
+  .vehicleTable tbody tr td:nth-of-type(4):before {
+    content: "Registration No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(5):before {
+    content: "Make";
+  }
+  .vehicleTable tbody tr td:nth-of-type(6):before {
+    content: "Model";
+  }
+  .vehicleTable tbody tr td:nth-of-type(7):before {
+    content: "Color";
+  }
+  .vehicleTable tbody tr td:nth-of-type(8):before {
+    content: "CO2 Emissions (g/km)";
+  }
+  .vehicleTable tbody tr td:nth-of-type(9):before {
+    content: "PSV Licence No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(10):before {
+    content: "PSO Certicate No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(11):before {
+    content: "Licence Authority";
+  }
+  .vehicleTable tbody tr td:nth-of-type(11):before {
+    content: "Lock Down Code";
+  }
+  .vehicleTable tbody tr td:nth-of-type(12):before {
+    content: "Notes";
+  }
+  .vehicleTable tbody tr td:nth-of-type(13):before {
+    content: "";
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: white;
+  }
+  tr:nth-child(even) {
+    background: #a9aee936;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: end;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 2px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .fixFare__upperc {
+    margin: 200px;
+  }
+  /*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+  .driverTable tbody tr td:nth-of-type(1):before {
+    content: "Export Ref";
+  }
+  .driverTable tbody tr td:nth-of-type(2):before {
+    content: "Name";
+  }
+  .driverTable tbody tr td:nth-of-type(3):before {
+    content: "Membership";
+  }
+  .driverTable tbody tr td:nth-of-type(4):before {
+    content: "Home Address";
+  }
+  .driverTable tbody tr td:nth-of-type(5):before {
+    content: "Billing Address";
+  }
+  .driverTable tbody tr td:nth-of-type(6):before {
+    content: "Date Joined";
+  }
+  .driverTable tbody tr td:nth-of-type(7):before {
+    content: "Date Left";
+  }
+  .driverTable tbody tr td:nth-of-type(8):before {
+    content: "Home Tel No";
+  }
+  .driverTable tbody tr td:nth-of-type(9):before {
+    content: "Mobile Tel No";
+  }
+  .driverTable tbody tr td:nth-of-type(10):before {
+    content: "Vat No";
+  }
+  .driverTable tbody tr td:nth-of-type(11):before {
+    content: "Date of Birth";
+  }
+  .driverTable tbody tr td:nth-of-type(12):before {
+    content: "Statement Interval";
+  }
+  .driverTable tbody tr td:nth-of-type(13):before {
+    content: "";
+  }
+
+  /*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		for vehicle table */
+
+  .vehicleTable tbody tr td:nth-of-type(1):before {
+    content: "Vehicle Name";
+  }
+  .vehicleTable tbody tr td:nth-of-type(2):before {
+    content: "Status";
+  }
+  .vehicleTable tbody tr td:nth-of-type(3):before {
+    content: "Fleet";
+  }
+  .vehicleTable tbody tr td:nth-of-type(4):before {
+    content: "Registration No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(5):before {
+    content: "Make";
+  }
+  .vehicleTable tbody tr td:nth-of-type(6):before {
+    content: "Model";
+  }
+  .vehicleTable tbody tr td:nth-of-type(7):before {
+    content: "Color";
+  }
+  .vehicleTable tbody tr td:nth-of-type(8):before {
+    content: "CO2 Emissions (g/km)";
+  }
+  .vehicleTable tbody tr td:nth-of-type(9):before {
+    content: "PSV Licence No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(10):before {
+    content: "PSO Certicate No";
+  }
+  .vehicleTable tbody tr td:nth-of-type(11):before {
+    content: "Licence Authority";
+  }
+  .vehicleTable tbody tr td:nth-of-type(11):before {
+    content: "Lock Down Code";
+  }
+  .vehicleTable tbody tr td:nth-of-type(12):before {
+    content: "Notes";
+  }
+  .vehicleTable tbody tr td:nth-of-type(13):before {
+    content: "";
+  }
+}
+.view__booking div {
+  width: 100%;
+}
+.view__booking input {
+  width: 100%;
+}

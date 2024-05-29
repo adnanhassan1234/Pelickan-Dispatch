@@ -1,0 +1,882 @@
+/* Login page css */
+body {
+  font-family: Montserrat, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.rightGraphMainDiv {
+  width: 100%;
+  height: 100%;
+}
+.cardsMainDiv {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightgraphInnerDiv {
+  width: 100%;
+  height: 30em;
+}
+.vehicleDriverMainMostDiv {
+  background-color: "#f7f8fca8";
+  width: 100em;
+  height: 57em;
+  margin-left: 14em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.vehicleDriverMainDiv {
+  width: 100em;
+  height: 55em;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 12px 10px whitesmoke;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+@keyframes sideBarAnimation {
+  0% {
+    width: 0px;
+    opacity: 0;
+  }
+  100% {
+    width: 200px;
+    opacity: 1;
+  }
+}
+.sidebarEffectsMobile {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  background-color: whitesmoke;
+  z-index: 100;
+  animation: sideBarAnimation 5s ease 2;
+  -webkit-animation: sideBarAnimation 5s ease 2;
+  animation-iteration-count: 1;
+}
+
+.displayNone {
+  display: none;
+}
+
+/* new vultture dashboard */
+.mainVulttureDiv {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  position: relative;
+}
+.vulttureInnerDiv {
+  width: 100em;
+  height: 60.5em;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  position: relative;
+}
+.leftSideDivVultture {
+  width: 12.5em;
+  height: 59.8em;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d2128;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0px 5px;
+  animation: widthLeftSide 6s linear 2s 1;
+  position: fixed;
+  -webkit-animation: widthLeftSide 0.5s linear 0s 1 normal;
+}
+.tabsInnerDiv {
+  height: 52em;
+  width: 100%;
+  overflow: hidden;
+}
+.dashBoardLblIcon {
+  width: 19px;
+  height: 19px;
+  margin-right: 10px;
+}
+.tabsInnerDiv:hover {
+  overflow: auto;
+}
+.tabsInnerDiv:hover .leftSideIcondesign {
+  margin-left: 5px;
+}
+.tabsInnerDiv:hover .dashBoardLblIcon {
+  margin-left: 5px;
+}
+.leftSideDivVulttureIcons {
+  width: 7em;
+  margin-right: 5em;
+  height: 58.7em;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d2128;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  position: fixed;
+}
+@keyframes widthLeftSide {
+  from {
+    width: 0em;
+    opacity: 0.5;
+  }
+  to {
+    width: 12em;
+  }
+}
+.rightSideVulttureDiv {
+  width: 110em;
+  height: 57em;
+  margin-left: 14em;
+  flex-direction: column;
+  margin-top: 1.5em;
+}
+.iconsArrow {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.rotateIcon {
+  transform: rotate(-270deg);
+  -webkit-transform: rotate(-270deg);
+  -moz-transform: rotate(-270deg);
+  -ms-transform: rotate(-270deg);
+  -o-transform: rotate(-270deg);
+}
+.rotateIconOfIcons {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+.commonVulttureDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 13px 0px;
+  border-bottom: 1px solid white;
+  transition: 00.5s;
+  -webkit-transition: 00.5s;
+  -moz-transition: 00.5s;
+  -ms-transition: 00.5s;
+  -o-transition: 00.5s;
+}
+.commonVulttureDivIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 13px 0px;
+}
+.vulttureLbl {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  width: 160px;
+}
+.leftSideIcondesign {
+  color: white;
+  width: 17px;
+  height: 17px;
+  font-size: 19px;
+  margin-right: 10px;
+}
+.logoutdiv {
+  background-color: #eaebec;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 80px;
+}
+.logoutBtn {
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logoutdiv:hover {
+  opacity: 0.7;
+}
+.logoutIconForIconsDiv {
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 35px;
+  margin-left: -10px;
+}
+.vultturecardOutDiv {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+.visitorsClientsOuterDiv,
+.recentEmailAndPieGraphDiv {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+.vulttureNavDiv {
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 1%;
+  margin-right: 3%;
+  justify-content: space-between;
+  position: relative;
+}
+.vulttureCardMainDiv {
+  width: 19em;
+  height: 12em;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-right: 20px;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.cardIconsDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 15px auto;
+}
+.cardLabel1Design {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: 600;
+  color: #464646;
+}
+.cardLabel2Design {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #464646;
+}
+.pagginationArrowDiv {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.welcomeLbl {
+  font-size: 30px;
+  font-weight: 600;
+  align-self: center;
+}
+.pagginationAndNoticationMessageDiv {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pagginationArrowOuterDiv {
+  width: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.notificationMessageOthersDiv1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #1d2128;
+  width: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.notificationMessageOthersDiv2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d2128;
+  width: 22em;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  top: -40px;
+  left: 98%;
+  position: absolute;
+}
+.notficationMessageSectionVultture {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.messagesDivVultture {
+  width: 95%;
+  height: 19em;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.dateInputSelect {
+  width: 99%;
+  outline: none;
+  border: none;
+}
+.messageLableDivOuter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.calendermainDiv {
+  width: 95%;
+  background-color: white;
+  height: 15em;
+  border-radius: 10px;
+}
+.messageLblVul {
+  font-size: 18px;
+  font-weight: 600;
+  color: #464646;
+  margin-right: 8px;
+}
+.numOfMsgVul {
+  font-size: 18px;
+  font-weight: 600;
+  color: #26a0fc;
+}
+.searchDivVul {
+  width: 95%;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.seacrhIconVul {
+  padding-left: 5px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  width: 60%;
+}
+.emailUserNameTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 5px;
+  border-bottom: 1px solid #dcdcda;
+}
+.emailUserIconAndLbl {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.searchLbl {
+  width: 25%;
+}
+.emailUserIcon {
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.notificationMainDiv {
+  display: flex;
+  flex-direction: row;
+  width: 94%;
+  margin: 10px auto;
+}
+.notificationMainDivRecentEmail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2px 10px;
+  border-bottom: 1px solid #dcdcda;
+}
+.notificationMainDivTodayRecentEmail {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  border-bottom: 2px solid #464646;
+  justify-content: center;
+  margin: 0px 5px;
+}
+.notificationAllLabelAndNum {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  justify-content: center;
+  margin: 0px 5px;
+}
+.notificationLabelAndNum {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  border-bottom: 2px solid #464646;
+  justify-content: center;
+  margin: 0px 5px;
+}
+.unreadnotificationLabelAndNum {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+
+  justify-content: center;
+  margin: 0px 5px;
+}
+.archiveNotificationLabelAndNum {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+
+  justify-content: center;
+  margin: 0px 5px;
+}
+.numberOfNotificationDivAll {
+  background-color: #464646;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.numberOfNotificationDiv {
+  background-color: #f2f2f2;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.notficationLbl {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
+.notficationLblAll {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.emailUser {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: -2px;
+}
+.emailUsername {
+  font-size: 14px;
+  font-weight: 500;
+}
+.emailUserSecondLbl {
+  font-size: 12px;
+  font-weight: 400;
+}
+.imageDesign {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.clientOverdueCardDiv {
+  width: 21em;
+  display: flex;
+  flex-direction: column;
+  height: 23em;
+}
+.barGraphOuterDiv1 {
+  width: 42.3em;
+  display: flex;
+  flex-direction: column;
+  height: 22.5em;
+  background-color: white;
+  margin: 7px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #464646;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.barGraphOuterDiv2 {
+  width: 58em;
+  display: flex;
+  flex-direction: column;
+  height: 22.5em;
+  background-color: white;
+  margin: 7px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid #464646;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.clientCardDiv,
+.OverdueCardDiv {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 48%;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.clientsInvoiceLabel {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 25px 15px;
+}
+.clientInvoiceInnerDiv {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 15px auto;
+  justify-content: space-between;
+}
+.numberOfClientInvoiceLbl {
+  font-size: 30px;
+  font-weight: 500;
+}
+.clientSecondPlusDiv {
+  width: 100px;
+  background: rgba(165, 238, 142, 0.5);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.invoiceSecondPlusDiv {
+  width: 100px;
+  background: rgba(206, 104, 120, 0.5);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.graphLabelDiv {
+  width: 94%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.barDesignDiv {
+  width: 80%;
+  height: 85%;
+  margin: 0px auto;
+}
+.lastestAnnouncementDiv {
+  width: 32%;
+  height: 22.5em;
+  background-color: white;
+  margin: 7px 7px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.firstLatestIconLblDiv,
+.dateViseAnnouncement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px 0px;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 1px solid #dcdcda;
+}
+.latestLblAndIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.latestLbl {
+  margin-left: 15px;
+}
+.dateOfAnnounce {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 40px;
+  background-color: #d9d9d9;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.anunceLbl {
+  color: #5d5d5d;
+  font-size: 18px;
+  font-weight: 500;
+  width: 80%;
+}
+
+.recentEmailsDiv {
+  width: 64em;
+  height: 15em;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+  padding: 15px 15px;
+}
+.headingLbl {
+  font-size: 22px;
+  font-weight: 600;
+  color: #464646;
+}
+
+.emailDataDiv {
+  display: flex;
+  flex-direction: row;
+  background: #faf9f9;
+  height: 3em;
+  align-items: center;
+  margin-top: 15px;
+}
+.emailDataDiv1,
+.emailDataDiv2 {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  background: #faf9f9;
+  height: 3em;
+  align-items: center;
+}
+.emailUserSche {
+  width: 30%;
+}
+.marginLeftForEmailUser {
+  margin-left: 9%;
+}
+.pieChartsDiv1 {
+  width: 32%;
+  margin: 0px 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+  height: 15em;
+}
+.pieChartsDiv2 {
+  width: 39em;
+  height: 16.5em;
+  margin: 0px 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.latestAnnouncementOfRecenetEmailSection {
+  width: 39em;
+  height: 16.5em;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 7px 1px #dfdada;
+}
+.recentEmaillatestAnnouncementDiv {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #dcdcda;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.thingAnouncementlabel {
+  display: flex;
+  flex-direction: row;
+}
+.iconAnouncement {
+  width: 5%;
+}
+.dateOfThingAnounecement {
+  width: 85%;
+}
+.anouncementTime {
+  width: 12%;
+}
+.dateOfAnounce {
+  color: #464646;
+  font-size: 14px;
+  font-weight: 400;
+}
+.anounementLbl {
+  color: #515151;
+  font-size: 16px;
+  font-weight: 500;
+}
+.moreLbl {
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.js {
+  width: 17.5em !important;
+  height: 14em;
+}
+
+.js .fatsuA .cfqheK .kVEIdA {
+  width: 26px !important;
+  height: 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #666;
+}
+.js .fatsuA .cfqheK .cIFnvd {
+  width: 25px !important;
+  height: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #666;
+}
+.js .fatsuA .cfqheK .cIFnvd[aria-pressed="true"] {
+  color: white;
+}
+.js .fatsuA .cfqheK {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, max-content));
+  grid-gap: 22px !important;
+}
+@media screen and (min-width: 1600px) {
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+}
+@media screen and (min-width: 350px) and (max-width: 500px) {
+}

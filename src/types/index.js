@@ -1,0 +1,68 @@
+// Login State
+export const LOGIN_USER = "LOGIN_USER";
+export const LOGIN_USER_SUCCESS = "LOGIN_USER_SUCCESS";
+export const LOGIN_USER_FAIL = "LOGIN_USER_FAIL";
+
+// Register State
+export const REGISTER_USER = "REGISTER_USER";
+export const REGISTER_USER_SUCCESS = "REGISTER_USER_SUCCESS";
+export const REGISTER_USER_FAIL = "REGISTER_USER_FAIL";
+
+// Email Verification
+export const EMAIL_VERIFICATION = "EMAIL_VERIFICATION";
+export const EMAIL_VERIFICATION_SUCCESS = "EMAIL_VERIFICATION_SUCCESS";
+export const EMAIL_VERIFICATION_FAIL = "EMAIL_VERIFICATION_FAIL";
+
+// Email Forget
+export const EMAIL_FORGET = "EMAIL_FORGET";
+export const EMAIL_FORGET_SUCCESS = "EMAIL_FORGET_SUCCESS";
+export const EMAIL_FORGET_FAIL = "EMAIL_FORGET_FAIL";
+
+// Reset Password
+export const RESET_PASSWORD = "RESET_PASSWORD";
+export const RESET_PASSWORD_SUCCESS = "RESET_PASSWORD_SUCCESS";
+export const RESET_PASSWORD_FAIL = "RESET_PASSWORD_FAIL";
+
+// Email Validation
+export const EMAIL_VALIDATION = "EMAIL_VALIDATION";
+export const EMAIL_VALIDATION_SUCCESS = "EMAIL_VALIDATION_SUCCESS";
+export const EMAIL_VALIDATION_FAIL = "EMAIL_VALIDATION_FAIL";
+
+// Validate User
+export const AUTH_USER = "AUTH_USER";
+export const AUTH_USER_SUCCESS = "AUTH_USER_SUCCESS";
+export const AUTH_USER_FAIL = "AUTH_USER_FAIL";
+
+// Validate User
+export const GET_DRIVERS_DOC = "GET_DRIVERS_DOC";
+export const GET_DRIVERS_DOC_SUCCESS = "GET_DRIVERS_DOC_SUCCESS";
+export const GET_DRIVERS_DOC_FAIL = "GET_DRIVERS_DOC_FAIL";
+
+// Upload Drivers Doc
+export const UPLOAD_DRIVERS_DOC = "UPLOAD_DRIVERS_DOC";
+export const UPLOAD_DRIVERS_DOC_SUCCESS = "UPLOAD_DRIVERS_DOC_SUCCESS";
+export const UPLOAD_DRIVERS_DOC_FAIL = "UPLOAD_DRIVERS_DOC_FAIL";
+
+//Get Drivers
+export const GET_DRIVERS = "GET_DRIVERS";
+export const GET_DRIVERS_SUCCESS = "GET_DRIVERS_SUCCESS";
+export const GET_DRIVERS_FAIL = "GET_DRIVERS_FAIL";
+
+//Get one driver
+export const GET_ONE_DRIVERS = "GET_ONE_DRIVERS";
+export const GET_ONE_DRIVERS_SUCCESS = "GET_ONE_DRIVERS_SUCCESS";
+export const GET_ONE_DRIVERS_FAIL = "GET_ONE_DRIVERS_FAIL";
+
+// Alerts
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const RESET_ALERT = "RESET_ALERT";
+
+// Redirects
+export const RESET_REDIRECT = "RESET_REDIRECT";
+export const SET_REDIRECT = "SET_REDIRECT";
+
+//Modal Management
+export const OPEN_MODAL = "OPEN_MODAL";
+export const CLOSE_MODAL = "CLOSE_MODAL";
+export const RESET_MODAL = "RESET_MODAL";
